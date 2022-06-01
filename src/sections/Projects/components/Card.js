@@ -4,7 +4,7 @@ import PhotoSnapImage from '../../../assets/photosnap.png'
 
 function Card({ image, title, description, liveLink, codeLink }) {
   return (
-    <div className='projects_container__card'>
+    <div className='projects_container__card' data-aos='fade-in'>
       <div className="image_wrapper">
         <img src={ image } alt="" />
       </div>

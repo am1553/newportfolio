@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Card from './components/Card'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import DevTechLogo from '../../assets/coding.png'
 import CodeDataLogo from '../../assets/web-design.png'
@@ -10,6 +12,10 @@ import NowIcon from '../../assets/now.png'
 import FutureIcon from '../../assets/future.png'
 
 function About() {
+
+  useEffect(()=> {
+    AOS.init({duration: 1500})
+  }, [])
 
   const skillsData = [
     {
@@ -69,7 +75,7 @@ function About() {
            {
              skillsData.map((data, key) => {
                 return(
-                  <Card 
+                  <Card
                       key = { data.id }
                       image = { data.image }
                       title = { data.title }

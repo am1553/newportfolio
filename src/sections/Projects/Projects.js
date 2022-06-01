@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Card from './components/Card'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 // react data
 import PhotoSnapImage from '../../assets/photosnap.png'
@@ -12,7 +14,9 @@ import ArtGalleryImage from '../../assets/art-gallery.png'
 import AccordionImage from '../../assets/accordion.png'
 
 function Projects() {
-
+    useEffect(()=> {
+        AOS.init({duration: 1500})
+      }, [])
     const [view, setView] = useState(true)
     // if true then view react projects and if falls then view normal
 
