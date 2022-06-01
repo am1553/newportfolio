@@ -5,6 +5,7 @@ import Home from './sections/Home/Home';
 import Projects from './sections/Projects/Projects';
 
 function App() {
+
   return (
     <div className="App">
       <Header />

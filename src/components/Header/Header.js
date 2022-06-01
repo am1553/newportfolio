@@ -9,7 +9,13 @@ function Header() {
 
     const handleClick = () => {
         setMenu(!menu)
+        if(menu === true) {
+            document.body.style.overflow = 'auto'
+        } else {
+            document.body.style.overflow = 'hidden'
+        }
     }
+
 
   return (
     <div className='header'>
@@ -23,11 +29,39 @@ function Header() {
                 }
             </button>
             <nav style={ menu ? { height: "20rem" } : {height: "0rem"} }>
-                <li><a href="#home" onClick={ () => setMenu(!menu) }>Home</a></li>
-                <li><a href="#about" onClick={ () => setMenu(!menu) }>About</a></li>
-                <li><a href="#projects" onClick={ () => setMenu(!menu) }>Projects</a></li>
+                <li><a href="#home" onClick={ () => {
+                    setMenu(!menu); 
+                    if(menu === true) {
+                        document.body.style.overflow = 'auto'
+                    } else {
+                        document.body.style.overflow = 'hidden'
+                    }
+                    } }>Home</a></li>
+                <li><a href="#about" onClick={ () => {
+                    setMenu(!menu); 
+                    if(menu === true) {
+                        document.body.style.overflow = 'auto'
+                    } else {
+                        document.body.style.overflow = 'hidden'
+                    }
+                    } }>About</a></li>
+                <li><a href="#projects" onClick={ () => {
+                    setMenu(!menu); 
+                    if(menu === true) {
+                        document.body.style.overflow = 'auto'
+                    } else {
+                        document.body.style.overflow = 'hidden'
+                    }
+                    } }>Projects</a></li>
                 <div className="contact_wrapper">
-                    <a href="https://www.linkedin.com/in/am161/" target="_blank"><LinkedInIcon style={{transform: "scale(1.3)", margin: "1rem 0"}}/></a>
+                    <a href="https://www.linkedin.com/in/am161/" target="_blank"><LinkedInIcon style={{transform: "scale(1.3)", margin: "1rem 0"}} onClick={ () => {
+                    setMenu(!menu); 
+                    if(menu === true) {
+                        document.body.style.overflow = 'auto'
+                    } else {
+                        document.body.style.overflow = 'hidden'
+                    }
+                    } }/></a>
                 </div>
             </nav>
         </div>
