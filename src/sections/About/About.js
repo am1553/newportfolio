@@ -16,21 +16,21 @@ function About() {
       id: 1,
       image: DevTechLogo,
       title: "Development Technology",
-      description: "HTML, CSS and JavaScript is the core fundamental of what I am able to do. Ideally I use React.js to build a website, where I integreate SCSS with BEM methodology and inline conditional styling.",
+      description: "HTML, CSS and JavaScript is the core fundamental of what I use to make websites and web applications. Ideally I use React.js, where I integreate SCSS with BEM methodology and inline conditional styling if required.",
       background: "#ff9c23"
     },
     {
       id: 2,
       image: CodeDataLogo,
       title: "Design to Code & Data",
-      description: "I can take a design and code it pixel perfectly to work across all devices as well as make it interactive.I can fetch data from an API and use it for rendering components.",
+      description: "I can take a figma design and code it pixel perfectly to work across all devices as well as make it interactive. I can fetch data from an API and use it to render information.",
       background: "#FF0080"
     },
     {
       id: 3,
       image: ReactLogo,
       title: "More on React.js",
-      description: "I have been using React.js and have built multiple projects using it. I am familiar with reusable components, components state management, hooks and props, conditional rendering, and much more.",
+      description: "I have built multiple projects using React. I am familiar with reusable components, components state management, hooks and props, conditional rendering, axios and much more.",
       background: "#40E0D0"
     }
   ]
@@ -48,7 +48,7 @@ function About() {
       id: 2,
       image: NowIcon,
       title: "Now",
-      description: "Currently, I am working on a web application for a language agency. This involves working in a team that follows Agile workflow. I am also pursuing BSc Computing, IT and Mathematics as part time.",
+      description: "Currently, I am working on a web application with a team for a language agency where I am given designs and am tasked to code them. We work in Agile workflow and have gained great experience so far.",
       background: "#40E0D0"
     },
     {
