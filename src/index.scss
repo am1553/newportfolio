@@ -1,0 +1,56 @@
+@import "./components/Header/Header";
+@import "./sections/Home/Home";
+@import "./sections/About/About";
+@import "./sections/Projects/Projects";
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: #d3d8e981;
+    img {
+        display: block;
+    }
+    button {
+        cursor: pointer;
+    }
+    .cursive {
+        font-family: 'Allura', cursive;
+    }
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+    }
+
+    h1 {
+        font-size: clamp(3rem, 10vw, 16rem);
+        text-transform: uppercase;
+        text-shadow: #000 0px 0px 1px, rgba(0, 0, 0, 0.4) 3px 6px 0px;
+        -webkit-font-smoothing: antialiased;
+    }
+    h2 {
+        color: #fff;
+        font-size: clamp(2.5rem, 5vw, 8rem);
+        text-transform: uppercase;
+        text-shadow: #000 0px 0px 1px, rgba(0, 0, 0, 0.4) 2px 4px 0px;
+         -webkit-font-smoothing: antialiased;
+         letter-spacing: 0.25rem;
+         text-align: center;
+         margin: 5rem 0;
+    }
+
+    h3 {
+        font-size: clamp(1.5ren, 5vw, 2.25rem);
+        letter-spacing: 0.5px;
+    }
+    p {
+        opacity: 0.6;
+        line-height: 1.5rem;
+    }
+}
