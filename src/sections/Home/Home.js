@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../../assets/hero.svg'
+import HeroImage from '../../assets/hero.webp'
 function Home() {
   return (
     <div className='home' id='home'>
