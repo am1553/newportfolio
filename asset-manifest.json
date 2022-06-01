@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/newportfolio/static/css/main.ba12eede.css",
+    "main.js": "/newportfolio/static/js/main.05d0ae73.js",
+    "static/media/clock.png": "/newportfolio/static/media/clock.09c0b5544a4527fa55cd.png",
+    "static/media/hero.svg": "/newportfolio/static/media/hero.e0ee62c77ddfcc3160c8fe117bbcb4f6.svg",
+    "static/media/entertainment.png": "/newportfolio/static/media/entertainment.c9fda2e9cdf6ed2d8ea4.png",
+    "static/media/art-gallery.png": "/newportfolio/static/media/art-gallery.5adbda1b6b4d4ec1792a.png",
+    "static/media/photosnap.png": "/newportfolio/static/media/photosnap.69471b253a137a1d5ac6.png",
+    "static/media/world.png": "/newportfolio/static/media/world.4fa4df7814c7f9997e67.png",
+    "static/media/accordion.png": "/newportfolio/static/media/accordion.455624d7e16915a36aa6.png",
+    "static/media/coding.png": "/newportfolio/static/media/coding.6b43ee7c655f205d7c60.png",
+    "static/media/now.png": "/newportfolio/static/media/now.576ea4008b413bd33b18.png",
+    "static/media/future.png": "/newportfolio/static/media/future.1446a0b6fdf800d92f80.png",
+    "static/media/atom-symbol.png": "/newportfolio/static/media/atom-symbol.5cb83655567dd3efc230.png",
+    "static/media/web-design.png": "/newportfolio/static/media/web-design.9be7c47864a3382d3a9d.png",
+    "static/media/back-arrow.png": "/newportfolio/static/media/back-arrow.a5b6324f734f03723ca9.png",
+    "index.html": "/newportfolio/index.html",
+    "main.ba12eede.css.map": "/newportfolio/static/css/main.ba12eede.css.map",
+    "main.05d0ae73.js.map": "/newportfolio/static/js/main.05d0ae73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba12eede.css",
+    "static/js/main.05d0ae73.js"
+  ]
+}
