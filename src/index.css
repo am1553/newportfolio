@@ -29,6 +29,7 @@
   border: none;
   background-color: transparent;
   outline: none;
+  color: #000;
 }
 
 .header nav {
@@ -387,6 +388,7 @@
   position: relative;
   border: none;
   background-color: transparent;
+  color: #000;
 }
 
 .projects .switch button::before {
