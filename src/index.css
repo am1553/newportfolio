@@ -353,6 +353,10 @@
       justify-content: space-around;
 }
 
+.projects_container__card .button_wrapper a {
+  color: #000;
+}
+
 .projects_container__card .button_wrapper button {
   padding: 0.5rem 2rem;
   text-transform: uppercase;
@@ -360,6 +364,7 @@
   border: none;
   background-color: transparent;
   border: 1px solid black;
+  color: #000;
 }
 
 .projects .projects_container {
